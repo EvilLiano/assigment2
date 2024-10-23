@@ -1,3 +1,27 @@
-head {
-    background-color: yellow;
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+#headerid {
+    background-color: royalblue;
+    padding: 10px;
+    margin-top: -25px;
+    margin-left: -10px;
+    margin-right: -10px;
+    font-family: 'Open Sans';
+    color: white;
+    
+    
+}
+
+#footerid {
+    padding: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-color: black;
+    color: white;
+    /* I was unable to figure out how to extend the background downwards*/
+}
+
+#para {
+    text-align: center;
+    color: aqua;
 }
