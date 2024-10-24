@@ -2,18 +2,21 @@
 
 #headerid {
     background-color: royalblue;
-    padding: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-top: -25px;
     margin-left: -10px;
     margin-right: -10px;
-    font-family: 'Open Sans';
+    font-family: Verdana, sans-serif;
     color: white;
     
     
 }
 
 #footerid {
-    padding: 10px;
+    padding-left: 10px;
+    padding-bottom: 10cap;
     margin-left: -10px;
     margin-right: -10px;
     background-color: black;
@@ -24,4 +27,12 @@
 #para {
     text-align: center;
     color: aqua;
+}
+
+h2, h3 {
+    font-family: "Open Sans", sans-serif;
+}
+
+h3 {
+    background-image: linear-gradient(to right, black 25px, white 25px, white);
 }
