@@ -1,38 +1,94 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
-#headerid {
-    background-color: royalblue;
+body {
+    margin: 0px;
+    font-family: "verdana", sans-serif;
+}
+
+
+#headerid, #footerid, .location {
     padding-left: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: -25px;
-    margin-left: -10px;
-    margin-right: -10px;
-    font-family: Verdana, sans-serif;
-    color: white;
-    
-    
-}
-
-#footerid {
     padding-left: 10px;
-    padding-bottom: 10cap;
-    margin-left: -10px;
-    margin-right: -10px;
-    background-color: black;
-    color: white;
-    /* I was unable to figure out how to extend the background downwards*/
 }
-
-#para {
-    text-align: center;
-    color: aqua;
-}
-
 h2, h3 {
     font-family: "Open Sans", sans-serif;
 }
 
-h3 {
-    background-image: linear-gradient(to right, black 25px, white 25px, white);
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+#headerid {
+    background-color: royalblue;
+    color: white;
+    text-shadow: 2px 2px 4px #333;
+    border: 1px outset darkblue;
+}
+
+#headerid h1 {
+    margin-bottom: 0px;
+}
+
+#headerid h2 {
+    font-family: garamond, serif;
+    font-style: italic;
+    font-size: 1em;
+    margin-top: 0px;
+}
+
+#content p {
+    text-align: justify;
+    text-indent: 2em;
+    color: #999999;
+}
+
+#content p::first-line {
+    color: black;
+}
+
+#content h2 {
+    border-bottom: 1px solid #999999;
+}
+
+.rank {
+    background-color: black;
+    color: white;
+    padding: 1px;
+  
+}
+
+footer {
+    margin: 0px;
+    background-color: black;
+    color: white;
+    border: 0px outset;
+}
+
+#footerid ul {
+    list-style-type: circle;
+}
+
+#footerid ul li:first-child {
+    list-style-type: disc;
+}
+
+#footerid ul li:nth-child(2) {
+    list-style-type: disc;
+    font-weight: bold;
+}
+
+#footerid a {
+    color: white;
+}
+
+#footerid p {
+    text-align: center;
+    color: yellow;
+    font-style: oblique;
 }
