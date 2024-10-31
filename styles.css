@@ -5,10 +5,9 @@ body {
     font-family: "verdana", sans-serif;
 }
 
-
 #headerid, #footerid, .location {
     padding-left: 10px;
-    padding-left: 10px;
+    padding-right: 10px;
 }
 h2, h3 {
     font-family: "Open Sans", sans-serif;
@@ -23,6 +22,7 @@ a:hover {
     text-decoration: underline;
 }
 
+/* --------------------------------- HEADER ------------------------------------*/
 
 #headerid {
     background-color: royalblue;
@@ -42,6 +42,8 @@ a:hover {
     margin-top: 0px;
 }
 
+/* --------------------------------- Content ------------------------------------*/
+
 #content p {
     text-align: justify;
     text-indent: 2em;
@@ -59,9 +61,10 @@ a:hover {
 .rank {
     background-color: black;
     color: white;
-    padding: 1px;
-  
+    padding: 1px; 
 }
+
+/* --------------------------------- Footer------------------------------------*/
 
 footer {
     margin: 0px;
